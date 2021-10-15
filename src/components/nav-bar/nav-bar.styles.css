@@ -1,0 +1,58 @@
+.portfolio-name {
+    transition:.8s all;
+    font-family:'Compressa VF';
+    text-rendering: optimizeSpeed;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    font-variation-settings:  "wdth" 250, "wght" 300;
+    cursor: pointer;
+}
+
+.portfolio-name:hover {
+    transition:.6s all;
+    font-variation-settings: "wdth" 400, "wght" 1000;
+}
+
+@media(max-width: 768px) {
+    .portfolio-name {
+        font-family:'Compressa VF';
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        font-variation-settings:  "wdth" 150, "wght" 200;
+        cursor: pointer;
+    }
+   }
+
+nav{
+    z-index: 2;
+    background-color:var(--primary-black) ;
+}
+
+nav a.nav-link{
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+
+nav ul li{
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+    border-top: 0.1875rem solid var(--primary-pink);
+
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-pink);
+
+}
+

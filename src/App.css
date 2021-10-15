@@ -1,0 +1,41 @@
+@font-face {
+  src: url('https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2');
+  font-family:'Compressa VF';
+  font-style: normal;
+}
+:root{
+  --primary-white: #fff;
+  --primary-pink: #f542a7;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-black: rgb(15, 15, 15);
+  --primary-grey: rgb(52, 58, 64);
+  --primary-light-grey: #f4f4f4;
+  --primary-red: #ff347856;
+}
+.App {
+  text-align: center;
+}
+
+h1{
+  color: var(--primary-pink);
+}
+body{
+  font-family: 'Compressa VF' !important;
+}
+
+/*-------- PARTICLES JS ---------------*/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+
+  
+  .main-info h1 {
+    color: var(--primary-pink);
+    text-transform: uppercase;
+  }
+  
+  

@@ -1,0 +1,83 @@
+.header-wraper {
+    position: relative;
+    background: url(../../assets/9.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condesed", sans-serif;
+    text-decoration: black;
+    z-index: 1;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  }
+
+  .main-info h1{
+    font-size: 50px;
+  }
+  .main-info h2{
+    font-family: 'Compressa VF';
+    font-size: 40px;
+    color: white;
+  }
+
+  /*-------- TYPED TEXT ---------------*/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+  font-family: 'Compressa VF';
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+    font-family: 'Compressa VF';
+
+  }
+}
+
+/*-------- HEADER MAIN OFFER BUTTON ---------------*/
+.btn-main-offer {
+  border: 1px solid var(--primary-white);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.75rem 0.8rem 0.8rem 0.8rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+  background-color: var(--primary-dark);
+  color: var(--primary-white);
+  transition:  .2s ease-in-out;
+  font-family: 'Compressa VF';
+}
+
+.btn-main-offer:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: var(--primary-pink);
+  border:none;
+  color: var(--primary-white);
+  transition:  .2s ease-in-out;
+}
+
+.title{
+  text-align: start;
+}
+.title-word{
+  font-size: 24px
+}

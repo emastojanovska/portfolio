@@ -1,0 +1,74 @@
+.about-wrap{
+  padding-bottom: 100vh;
+}
+.btn-main-offer-cv {
+  border: 1px solid var(--primary-white);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.75rem 0.8rem 0.8rem 0.8rem;
+  color: var(--primary-white);
+  margin: 0 ;
+  text-decoration: none;
+  background-color: var(--primary-pink);
+  color: var(--primary-white);
+  transition:  .2s ease-in-out;
+  font-family: 'Compressa VF';
+}
+
+.btn-main-offer-cv:hover {
+  cursor: pointer;
+  text-decoration: none;
+  background-color: var(--primary-dark);
+  border-color: var(--primary-pink);
+  color: var(--primary-black);
+  transition:  .2s ease-in-out;
+}
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 16rem;
+    padding: .3rem;
+    border: 1px solid var(--primary-pink);
+  }
+  
+  .heading {
+    color: var(--primary-pink);
+    text-transform: uppercase;
+  }
+
+  .about-me-text{
+      font-size: 1.1rem;
+      text-align: justify;
+  }
+
+  @media(max-width: 800px) {
+    .profile-img {
+      width: 15rem;
+      
+    }
+
+    .photo-wrap{
+        padding: unset;
+    }
+
+    .about-me-section-2{
+        padding: 0 10%;
+    }
+  }
+  
+  @media(max-width: 468px) {
+    .profile-img {
+      width: 10rem;
+    }
+    .photo-wrap{
+        padding: unset;
+    }
+
+    .about-me-section-2{
+        padding: 0 10;
+    }
+  }

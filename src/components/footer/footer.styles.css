@@ -1,0 +1,21 @@
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+    background: var(--primary-black);
+    color: var(--primary-light-grey);
+    padding: 3rem;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: var(--primary-light-grey);
+  }
+  
+  .footer a:hover {
+    text-decoration: none;
+    color: var(--primary-pink);
+    cursor:pointer;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }

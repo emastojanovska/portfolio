@@ -1,0 +1,117 @@
+/************************ PORTFOLIO *********************************/
+.portfolio-wrapper {
+    padding: 3rem 0;
+    background: var(--primary-black);
+  }
+  
+  .portfolio-wrapper h1 {
+    color: var(--primary-pink);
+  }
+  
+  .portfolio-image {
+    width: 16rem;
+    height: 9rem;
+    border: 1px solid var(--primary-pink);
+    padding: 0 0.5rem;
+  }
+
+  @media(max-width: 800px) {
+      .overflow {
+         display: none;
+      }
+
+      .portfolio-image-box{
+        padding: 0 5rem;
+      }
+
+  }
+  
+  .portfolio-image-box {
+    position: relative;
+    margin: 1rem;
+  }
+  
+  /*------------ OVERFLOW BOX ------------------*/
+  .overflow {
+    position: absolute;
+    opacity: 0;
+    background: var(--primary-black);
+    width: 16rem;
+    height: 9rem;
+    top: 0;
+    border: 1px solid var(--primary-pink);
+    cursor: zoom-in;
+  }
+  
+  .portfolio-image-box:hover .overflow {
+    opacity: 60%;
+    transition: 0.3s ease-in-out;
+    background: var(--primary-black);
+     
+    border: 2px solid var(--primary-pink);
+    cursor: zoom-in;
+  }
+
+  .portfolio-image:hover{
+    background: var(--primary-black);
+  }
+ 
+  
+  .portfolio-image-box:hover{
+    opacity: 70%;
+    transition: 0.3s ease-in-out;
+    cursor: zoom-in;
+  }
+
+  .popupbox-wrapper {
+    margin-top: 7rem;
+  }
+  
+  /*------------ OVERFLOW BOX ------------------*/
+  .portfolio-image-popupbox {
+    width: 45rem;
+    padding: 0 0.5rem;
+  }
+  
+  .hyper-link {
+    cursor: pointer; 
+    color: var(--primary-pink);
+  }
+  
+  .hyper-link:hover {
+    color: var(--primary-black);
+  }
+  
+  /*------------ MEDIA ------------------*/
+  @media(max-width: 768px) {
+    .portfolio-image-popupbox {
+      width: 100%;
+    }
+    .portfolio-image-box{
+      padding: 0 5rem;
+    }
+    .portfolio-image-box{
+      padding: 0 2rem;
+    }
+  }
+  
+  @media(max-width: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+    .portfolio-image-popupbox {
+      width: 50%;
+    }
+    .portfolio-image-box{
+      padding: 0 2.7rem;
+    }
+  }
+  
+  @media(max-height: 280px) {
+    .popupbox-wrapper {
+      height: 90%;
+    }
+      .portfolio-image-popupbox {
+        width: 30%;
+      }
+    }
